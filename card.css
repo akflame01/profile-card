@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#profile-card {
+    width: 300px;
+    height: 420px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+#profile-picture {
+    width: 100%;
+    height: 50%;
+    background-image: url('hmfff.jpg');
+    background-size: cover;
+}
+
+#contact-info {
+    padding: 5px;
+    text-align: left;
+}
+
+#contact-info h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em; /* Adjust the font size as needed */
+    color: #333;
+}
+
+#contact-info p {
+    margin: 5px 0;
+}
+
+#contact-info a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #3498db; /* Link color */
+}
+
+#linkedin-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px; /* Adjust the spacing between name and logo */
+}
